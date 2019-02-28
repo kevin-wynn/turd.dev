@@ -9,6 +9,8 @@
       <p>
         <small>coming soon...</small>
       </p>
+      <br>
+      <a href="https://github.com/kevin-wynn/turd.dev"/>
     </div>
   </div>
 </template>
