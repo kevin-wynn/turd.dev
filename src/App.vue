@@ -1,32 +1,20 @@
 <template>
   <div id="app">
-    <Intro/>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
 
-<script>
-import Intro from "./components/Intro.vue";
-
-export default {
-  name: "app",
-  components: {
-    Intro
-  }
-};
-</script>
-
-<style lang="scss">
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+<style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #5d4037;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
